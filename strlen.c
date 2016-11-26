@@ -8,6 +8,7 @@ int longitud(char *a) {
 
 int main() {
 	char *texto = "prueba de longitud";
-	printf("La longitud de la cadena 'texto' es: %d", longitud(texto));
+	printf("La longitud de la cadena 'texto' es: %d, \n%s %i %s.\n", longitud(texto),
+	"Es decir, la cadena 'prueba de longitud' cuenta con" , longitud(texto), "caracteres");
 	return 0;
 }
